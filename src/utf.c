@@ -6,7 +6,7 @@
  */
 
 #include <string.h>
-#include "utf.h"
+#include "jansson/utf.h"
 
 int utf8_encode(int32_t codepoint, char *buffer, int *size)
 {

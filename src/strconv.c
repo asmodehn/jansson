@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "jansson_private.h"
-#include "strbuffer.h"
+#include "jansson/strbuffer.h"
 
 #if JSON_HAVE_LOCALECONV
 #include <locale.h>

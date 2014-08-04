@@ -16,7 +16,7 @@ LOCAL_SRC_FILES := dump.c \
     utf.c \
     value.c
 
-
-LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/include $(LOCAL_PATH)/src
+LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/include
                     
 include $(BUILD_STATIC_LIBRARY)

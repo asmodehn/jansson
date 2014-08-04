@@ -7,9 +7,9 @@
  */
 
 #include <string.h>
-#include "jansson.h"
+#include "jansson/jansson.h"
 #include "jansson_private.h"
-#include "utf.h"
+#include "jansson/utf.h"
 
 typedef struct {
     const char *start;

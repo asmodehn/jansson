@@ -9,9 +9,9 @@
 #define JANSSON_PRIVATE_H
 
 #include <stddef.h>
-#include "jansson.h"
-#include "hashtable.h"
-#include "strbuffer.h"
+#include "jansson/jansson.h"
+#include "jansson/hashtable.h"
+#include "jansson/strbuffer.h"
 
 #define container_of(ptr_, type_, member_)  \
     ((type_ *)((char *)ptr_ - offsetof(type_, member_)))

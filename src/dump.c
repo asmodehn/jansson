@@ -11,10 +11,10 @@
 #include <string.h>
 #include <assert.h>
 
-#include "jansson.h"
+#include "jansson/jansson.h"
 #include "jansson_private.h"
-#include "strbuffer.h"
-#include "utf.h"
+#include "jansson/strbuffer.h"
+#include "jansson/utf.h"
 
 #define MAX_INTEGER_STR_LENGTH  100
 #define MAX_REAL_STR_LENGTH     100

@@ -12,10 +12,10 @@
 #include <string.h>
 #include <math.h>
 
-#include "jansson.h"
-#include "hashtable.h"
+#include "jansson/jansson.h"
+#include "jansson/hashtable.h"
 #include "jansson_private.h"
-#include "utf.h"
+#include "jansson/utf.h"
 
 /* Work around nonstandard isnan() and isinf() implementations */
 #ifndef isnan
